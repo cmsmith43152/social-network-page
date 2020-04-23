@@ -1,0 +1,23 @@
+ {box-sizing: border-box}
+
+.Header-box {
+    background-color: slateblue;
+    height: 400px;
+    border: 1px solid grey;
+}
+headertext {
+    position: relative;
+    top: 80px;
+    left: 215pz;
+}
+Photobox {
+    background-color: pink;
+    position: relative;
+    height: 200px;
+    width; 200px;
+    top: 230px;
+}
+nav {
+    background-color: white;
+    border: 1px solid grey
+}
