@@ -1,23 +1,59 @@
- {box-sizing: border-box}
+/*
 
-.Header-box {
-    background-color: slateblue;
+
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+.header {
+    margin: auto;
+    width: 850px;
     height: 400px;
-    border: 1px solid grey;
+    /* margin: 100px 0px 0px 30px; */
+    
+    background-color: lightblue;
+   
+
 }
-headertext {
-    position: relative;
-    top: 80px;
-    left: 215pz;
+
+.header-bg {
+    height: 225px;
+    background-color: cyan;
 }
-Photobox {
-    background-color: pink;
-    position: relative;
-    height: 200px;
-    width; 200px;
-    top: 230px;
-}
-nav {
+
+.profile-heading {
+    height: 175px;
     background-color: white;
-    border: 1px solid grey
+    border: 1px solid darkgray;
+}
+
+.buttons {
+    position: relative;
+    top: 0px;
+    left: 600px;
+}
+
+nav {
+    position: relative;
+    top: 200px;
+
+}
+
+.profile-photo {
+    /* background-image: url(https://www.google.com/search?q=sunflower+images&rlz=1C1GCEA_enUS892US892&sxsrf=ALeKk03bfZOffc6ckL602KlBzj5FQSET1w:1587690215570&tbm=isch&source=iu&ictx=1&fir=BLbrlG39q5MoTM%253A%252C1T6_6szR_sRZwM%252C_&vet=1&usg=AI4_-kT3FmK7zFqKY12VUtdJVCnS2I7Hrw&sa=X&ved=2ahUKEwj9yL_67v_oAhUnlHIEHSVyAJIQ9QEwAnoECAoQMw#imgrc=BLbrlG39q5MoTM:)
+; */
+background-repeat: no-repeat;
+background-position: center;
+height: 200px;
+width: 200px;
+border-radius: 50%;
+background-color: darkseagreen;
+
+position: relative;
+top: 200px;
+left: 0px;
 }
